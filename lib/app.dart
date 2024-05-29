@@ -26,7 +26,7 @@ class ShrineApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Shrine',
-      initialRoute: '/login',
+      initialRoute: '/register',
       routes: {
         '/register': (BuildContext context) => const RegisterPage(),
         '/login': (BuildContext context) => const LoginPage(),
